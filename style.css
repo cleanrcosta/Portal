@@ -66,10 +66,10 @@ padding: 10px;
 header {
     display: flex; /* Usando flexbox para o cabeçalho */
     flex-direction: column; /* Alinhando itens verticalmente */
-    align-items: center; /* Centraliza os itens horizontalmente no cabeçalho */
+    align-items: left; /* Centraliza os itens horizontalmente no cabeçalho */
     position: relative;
     height: 250px; /* Altura do cabeçalho */
-    overflow: hidden; /* Oculta as partes da imagem que não cabem no cabeçalho */
+    overflow: visible; /* Oculta as partes da imagem que não cabem no cabeçalho */
     text-align: center;
 }
 
@@ -156,6 +156,7 @@ nav a:hover {
     transition: background-color 0.3s;
     display: block; /* Garante que o botão seja exibido como um bloco */
     text-align: left; /* Alinha o texto do botão à esquerda */
+    overflow: visible; /* Garante que o menu não seja cortado */
 }
 
 /* Estilos do menu dropdown */
@@ -168,9 +169,10 @@ nav a:hover {
     margin-top: 0px;
     width: fit-content; /* Faz o menu ajustar-se ao conteúdo */
     position: absolute; /* Faz com que o menu apareça sobre os elementos */
-    z-index: 10; /* Garante que o menu fique sobre outros elementos */
+    z-index: 100; /* Garante que o menu fique sobre outros elementos */
     top: 20px; /* Posiciona o menu logo abaixo do botão */
-    left: 75px; /* Alinha o menu à esquerda, conforme o botão */
+    left: 88px; /* Alinha o menu à esquerda, conforme o botão */
+    overflow: visible; /* Garante que o menu não seja cortado */
 }
 
 /* Mostrar o menu quando o mouse estiver sobre o contêiner do menu */
