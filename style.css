@@ -15,6 +15,7 @@ header {
 height: 300px;
 background-color: lightgray;
 margin: 20px;
+text-align: center;
 }
 #insights {
 padding: 20px;
@@ -30,15 +31,19 @@ padding: 10px;
 #container {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #map {
-    height: 400px;
-    width: 70%;
+    height: 500px;
+    width: 100%;
 }
 
 #weather {
-    width: 30%;
+    width: 0%;
     padding: 10px;
     border-left: 1px solid #ccc;
 }

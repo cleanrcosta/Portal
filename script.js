@@ -54,6 +54,12 @@ function initMap() {
         { name: "Porto Alegre", lat: -30.0346, lng: -51.2177, color: "lightgreen", risk: "Baixa a Moderada Probabilidade" },
         { name: "Canoas", lat: -29.9994, lng: -51.1865, color: "lightgreen", risk: "Baixa a Moderada Probabilidade" },
         { name: "São Leopoldo", lat: -29.7684, lng: -51.2253, color: "yellow", risk: "Moderada Probabilidade" },
+        { name: "Erechim", lat: -27.6346, lng: -52.2734, color: "lightgreen", risk: "Baixa a Moderada Probabilidade" },
+        { name: "Gravataí", lat: -29.9412, lng: -50.9869, color: "yellow", risk: "Moderada Probabilidade" },
+        { name: "Taquari", lat: -29.7947, lng: -51.8647, color: "yellow", risk: "Moderada Probabilidade" },
+        { name: "Cruzeiro do Sul", lat: -29.5147, lng: -51.9928, color: "yellow", risk: "Moderada Probabilidade" },
+        { name: "Roca Sales", lat: -29.2883, lng: -51.8675, color: "red", risk: "Muito Alta Probabilidade" },
+        { name: "Passo Fundo", lat: -28.2576, lng: -52.4091, color: "yellow", risk: "Moderada Probabilidade" },
     ];
 
     cities.forEach(city => {
@@ -65,7 +71,7 @@ function initMap() {
             fillOpacity: 0.35,
             map: map,
             center: { lat: city.lat, lng: city.lng },
-            radius: 20000, // 20 km
+            radius: 8000, // 20 km
         });
 
         addCircleEvent(circle, city.lat, city.lng);
