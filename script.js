@@ -101,3 +101,14 @@ function fetchAdditionalData() {
 window.onload = () => {
     fetchAdditionalData();
 };
+// para as vagas:
+function showVagas(city) {
+    // Oculta todas as seções de vagas
+    var vagas = document.querySelectorAll('.vagas');
+    vagas.forEach(function(vaga) {
+        vaga.classList.remove('active');
+    });
+
+    // Exibe a seção de vagas correspondente
+    document.getElementById(city).classList.add('active');
+}

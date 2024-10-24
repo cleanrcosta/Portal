@@ -236,3 +236,64 @@ nav a:hover {
     transform: scale(1.05);
     background-color: #007BFF;
 }
+/* Para as vagas:*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-vaga {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-vaga button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu-vaga button:hover {
+    background-color: #0056b3;
+}
+
+.vagas {
+    display: none;
+    margin-top: 20px;
+}
+
+.vaga {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.vaga h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.vaga p {
+    margin: 5px 0;
+}
+
+.vaga strong {
+    color: #007bff;
+}
+
+.active {
+    display: block;
+}
