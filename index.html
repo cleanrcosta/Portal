@@ -3,98 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monitoramento de Enchentes - Rio Grande do Sul</title>
+    <title>Portal Informativo</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Monitoramento de Enchentes</h1>
+    <h1>Portal Informativo Enchentes RS</h1>
     <p>Verifique as áreas em risco e ações preventivas no Rio Grande do Sul.</p>
 
     <!-- Botão de Menu -->
-    <button class="menu-button" onclick="toggleMenu()">Menu</button>
+    <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
     <div class="menu" id="menu">
-        <a class="menu-link" href="pagina1.html">Página 1</a>
-        <a class="menu-link" href="pagina2.html">Página 2</a>
-        <a class="menu-link" href="pagina3.html">Página 3</a>
+        <a class="menu-link" href="index.html">Pagina Inicial</a>
+        <a class="menu-link" href="monitoramento.html">Sistema de monitoramento</a>
+        <a class="menu-link" href="preventiva.html">Prevenção e proteção</a>
+        <a class="menu-link" href="infraestrutura.html">Infraestrutura e Inovação</a>
+        <a class="menu-link" href="central.html">Central de Ajuda</a>
+        <a class="menu-link" href="vagas.html">Banco de Vagas</a>
+        <a class="menu-link" href="auxilio.html">Programas de auxílio</a>
     </div>
 </header>
+teste
 
-<!-- Seção do Mapa e Previsão do Tempo -->
-<nav>
-    <a href="#map">Mapa</a>
-    <a href="#weather">Previsão do Tempo</a>
-    <a href="#legend">Legenda</a>
-    <a href="#additionalData">Dados Adicionais</a>
-    <a href="#contact">Contato</a>
-</nav>
-<h2>Mapa de Áreas Afetadas</h2>
-<div id="container">
-    <div id="map"></div>
-    <div id="weather">
-        <h2>Previsão do Tempo</h2>
-        <p id="weatherInfo">Carregando dados...</p>
-    </div>
-</div>
-
-<!-- Legenda do Mapa -->
-<h2>Legenda</h2>
-<div id="legend">
-    <ul>
-        <li><span style="background-color: red; padding: 2px 5px;">&nbsp;</span> - Muito Alta Probabilidade</li>
-        <li><span style="background-color: orange; padding: 2px 5px;">&nbsp;</span> - Alta Probabilidade</li>
-        <li><span style="background-color: yellow; padding: 2px 5px;">&nbsp;</span> - Moderada Probabilidade</li>
-        <li><span style="background-color: lightgreen; padding: 2px 5px;">&nbsp;</span> - Baixa a Moderada Probabilidade</li>
-    </ul>
-</div>
-
-<!-- Seção de Dados Adicionais -->
-<div id="additionalData">
-    <h2>Dados Adicionais</h2>
-    <div class="data-section" id="precipitationData">
-        <h3>Média de Precipitação</h3>
-        <p>Carregando dados...</p>
-    </div>
-    <div class="data-section" id="forecastData">
-        <h3>Previsões de Precipitação</h3>
-        <p>Carregando dados...</p>
-    </div>
-    <div class="data-section" id="alertsData">
-        <h3>Alertas em Tempo Real</h3>
-        <p>Carregando dados...</p>
-    </div>
-    <div class="data-section" id="soilMoistureData">
-        <h3>Índice de Saturez do Solo</h3>
-        <p>Carregando dados...</p>
-    </div>
-    <div class="data-section" id="drainageMappingData">
-        <h3>Mapeamento de Drenagem</h3>
-        <p>Carregando dados...</p>
-    </div>
-    <div class="data-section" id="containmentStructuresData">
-        <h3>Estruturas de Contenção</h3>
-        <p>Carregando dados...</p>
-    </div>
-    <div class="data-section" id="populationData">
-        <h3>Dados sobre a População</h3>
-        <p>Carregando dados...</p>
-    </div>
-    <div class="data-section" id="damageAssessmentData">
-        <h3>Avaliação de Danos</h3>
-        <p>Carregando dados...</p>
-    </div>
-</div>
 
 <footer>
-    <p>&copy; 2024 Monitoramento de Enchentes</p>
+    <p>&copy; 2024 Portal Informativo sobre Enchentes Rio Grande do Sul</p>
 </footer>
 
-<!-- Google Maps API Script (com sua chave de API) -->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuVDiyyuExuVYrUDt78uzWkVcRjUhj81s&callback=initMap" async defer></script>
 
-<!-- Script para buscar dados de clima e interações com o mapa -->
+<!-- Script para chamar o javascript -->
 <script src="script.js"></script>
-
 </body>
 </html>
