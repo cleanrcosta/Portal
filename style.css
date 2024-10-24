@@ -58,6 +58,43 @@ padding: 10px;
     margin-top: 20px;
     font-family: Arial, sans-serif;
 }
+/* LOGO DA PAGINA INICIAL: */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@400&display=swap');
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo-container img {
+    max-width: 150px; /* Tamanho da imagem ajustável */
+}
+
+.logo-description {
+    font-family: 'Poppins', sans-serif; /* Fonte elegante */
+    font-size: 18px; /* Tamanho maior para destaque */
+    font-weight: 500; /* Negrito suave */
+    color: rgb(57, 83, 226); /* Azul suave */
+    margin-top: 10px; /* Espaçamento entre logo e descrição */
+    letter-spacing: 0.5px; /* Espaçamento entre letras */
+    text-transform: uppercase; /* Colocar o texto em maiúsculas para estilo */
+    transition: color 0.3s ease; /* Efeito suave de transição de cor */    
+}
+.logo-description:hover {
+    color: rgb(255, 69, 0); /* Cor laranja ao passar o mouse */
+}
+/* FIM DO AJUSTE DA LOGO MENU */
+/*CSS pra titulos: */
+h2 {
+    color: blue;
+    text-align: center;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', sans-serif;
+}
+
 
 .data-section {
     margin-bottom: 15px;
