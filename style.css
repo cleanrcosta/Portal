@@ -8,7 +8,7 @@ header {
     background-size: cover; /* Faz a imagem cobrir toda a área do header */
     background-position: center; /* Centraliza a imagem no header */
     color: white;
-    padding: 8px;
+    padding: 12px;
     text-align: center;
 }
 #map-container {
