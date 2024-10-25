@@ -8,7 +8,7 @@ header {
     background-size: cover; /* Faz a imagem cobrir toda a área do header */
     background-position: center; /* Centraliza a imagem no header */
     color: white;
-    padding: 20px;
+    padding: 6px;
     text-align: center;
 }
 #map-container {
@@ -184,7 +184,7 @@ nav a:hover {
 /* Estilos do botão de menu */
 .menu-button {
     position: absolute; /* Permite que o botão seja posicionado em relação ao cabeçalho */
-    top: 10px; /* Distância do topo do cabeçalho */
+    top: -5px; /* Distância do topo do cabeçalho */
     left: 10px; /* Distância da esquerda do cabeçalho */
     z-index: 20; /* Garante que o botão fique na frente dos outros elementos */
     cursor: pointer;
