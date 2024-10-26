@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Informativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Medidas de Proteção e Prevenção</h1>
+    <p>Reduzindo o impacto das enchentes no Rio Grande do Sul.</p>
+
+    <!-- Botão de Menu -->
+    <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
+    <div class="menu" id="menu">
+        <a class="menu-link" href="index.html">Pagina Inicial</a>
+        <a class="menu-link" href="monitoramento.html">Sistema de monitoramento</a>
+        <a class="menu-link" href="preventiva.html">Prevenção e proteção</a>
+        <a class="menu-link" href="infraestrutura.html">Infraestrutura e Inovação</a>
+        <a class="menu-link" href="central.html">Central de Ajuda</a>
+        <a class="menu-link" href="vagas.html">Banco de Vagas</a>
+        <a class="menu-link" href="auxilio.html">Programas de auxílio</a>
+    </div>
+</header>
+
+
+<main>
+    <!-- Seção de Doações -->
+    <section>
+      <h2 onclick="toggleCategory('doacoes')">Doações</h2>
+      <div id="doacoes" class="product-container">
+        <!-- Produtos 1 a 10 para Doações -->
+        <div class="product">
+          <img src="images/produto1.jpg" alt="Produto 1">
+          <h3>Produto 1</h3>
+          <p>Descrição básica do Produto 1</p>
+        </div>
+        <!-- Adicione os outros produtos com a mesma estrutura até o produto 10 -->
+      </div>
+    </section>
+
+    <!-- Seção de Produtos de Lojistas -->
+    <section>
+      <h2 onclick="toggleCategory('lojistas')">Produtos de Lojistas Conveniados</h2>
+      <div id="lojistas" class="product-container">
+        <!-- Produtos 1 a 10 para Lojistas Conveniados -->
+        <div class="product">
+          <img src="images/lojista1.jpg" alt="Produto 1">
+          <h3>Produto 1</h3>
+          <p>Descrição básica do Produto 1 - Lojista</p>
+        </div>
+        <!-- Adicione os outros produtos com a mesma estrutura até o produto 10 -->
+      </div>
+    </section>
+
+    <!-- Seção de Market Geral -->
+    <section>
+      <h2 onclick="toggleCategory('market')">Market Geral Aberto</h2>
+      <div id="market" class="product-container">
+        <!-- Produtos 1 a 10 para Market Geral -->
+        <div class="product">
+          <img src="images/market1.jpg" alt="Produto 1">
+          <h3>Produto 1</h3>
+          <p>Descrição básica do Produto 1 - Market</p>
+          <img src="images/market1.jpg" alt="Produto 2">
+          <h3>Produto 2</h3>
+          <p>Descrição básica do Produto 2 - Market</p>
+        </div>
+        <!-- Adicione os outros produtos com a mesma estrutura até o produto 10 -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Protótipo de Marketplace - Desenvolvido para demonstração</p>
+  </footer>
+
+  <!-- Script para exibir ou ocultar as seções -->
+  <script>
+    function toggleCategory(categoryId) {
+      const category = document.getElementById(categoryId);
+      category.style.display = category.style.display === 'none' ? 'flex' : 'none';
+    }
+  </script>
+<script src="script.js"></script>
+</body>
+</html>
