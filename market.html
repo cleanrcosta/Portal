@@ -9,8 +9,8 @@
 <body>
 
 <header>
-    <h1>Market Place</h1>
-    <p>Auxiliando na recuperação do comércio no RS.</p>
+    <h1>HOPE MARKET</h1>
+    <p>O Market Place da esperança que ajuda na reconstrução de sonhos e vidas.</p>
 
     <!-- Botão de Menu -->
     <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
@@ -27,8 +27,30 @@
 <div>
   <div class="topico" onclick="toggleConteudo('conteudo1')">Cadastre um produto para doação </div>
   <div id="conteudo1" class="conteudo">
-      <p>Preencha o formulario clicando no link abaixo<br>
-          <a href="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/4451/mucum-rs">Formulario do produto</a>
+      <p><div class="form-container">
+        <h2>Formulário</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Produto</label>
+                <input type="text" id="name" placeholder="Digite nome do produto">
+            </div>
+            <div class="form-group">
+                <label for="city">Cidade</label>
+                <input type="text" id="city" placeholder="Digite sua cidade">
+            </div>
+            <div class="form-group">
+                <label for="age">Endereço</label>
+                <input type="text" id="age" placeholder="Digite seu endereço">
+            </div>
+            <div class="form-group">
+              <label for="age">Contato (telefone)</label>
+              <input type="number" id="contato" placeholder="Digite seu telefone com DDD">
+          </div>
+            <a href="market.html">Faça upload da foto</a>
+            <button type="submit" class="submit-btn">Enviar</button>
+        </form>
+    </div><br>
+          
           </p>
   </div>
 </div>
@@ -36,8 +58,33 @@
 <div>
   <div class="topico" onclick="toggleConteudo('conteudo2')">Cadastre um produto para o Market Aberto</div>
   <div id="conteudo2" class="conteudo">
-    <p>Preencha o formulario clicando no link abaixo<br>
-      <a href="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/4451/mucum-rs">Formulario do produto</a>
+    <p><div class="form-container">
+      <h2>Formulário</h2>
+      <form>
+          <div class="form-group">
+              <label for="name">Produto</label>
+              <input type="text" id="name" placeholder="Digite nome do produto">
+          </div>
+          <div class="form-group">
+              <label for="city">Cidade</label>
+              <input type="text" id="city" placeholder="Digite sua cidade">
+          </div>
+          <div class="form-group">
+              <label for="age">Endereço</label>
+              <input type="text" id="age" placeholder="Digite seu endereço">
+          </div>
+          <div class="form-group">
+            <label for="age">Contato (telefone)</label>
+            <input type="number" id="contato" placeholder="Digite seu telefone com DDD">
+        </div>
+        <div class="form-group">
+          <label for="city">Estado do item (novo/usado)</label>
+          <input type="text" id="city" placeholder="Digite Novo/usado">
+      </div>
+          <a href="market.html">Faça upload da foto</a>
+          <button type="submit" class="submit-btn">Enviar</button>
+      </form>
+  </div><br>
       
       </p>
   </div>
@@ -46,19 +93,100 @@
 <div>
   <div class="topico" onclick="toggleConteudo('conteudo3')">Se torne um lojista conveniado! Clique aqui</div>
   <div id="conteudo3" class="conteudo">
-      <p>Preencha as informaçoes do formulario<br>
+      <p><div class="form-group">
+        <label for="name">Nome da Empresa</label>
+        <input type="text" id="name" placeholder="Digite nome social da empresa">
+    </div>
+    <div class="form-group">
+        <label for="city">Cidade</label>
+        <input type="text" id="city" placeholder="Digite sua cidade">
+    </div>
+    <div class="form-group">
+        <label for="age">Endereço</label>
+        <input type="text" id="age" placeholder="Digite seu endereço">
+    </div>
+    <div class="form-group">
+      <label for="age">CNPJ</label>
+      <input type="number" id="contato" placeholder="Digite seu CNPJ">
+  </div>
+  
+    <a href="market.html">Faça upload do documento CCEL (CERTIFICADO DE CRÉDITO EMERGENCIAL LOJISTA)</a>
+    <button type="submit" class="submit-btn">Enviar</button>
+</form>
+Preencha as informaçoes do formulario<br>
         Apresente os documentos necessários<br>
         Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abaixo: <br>
-          <a href="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/3155/montenegro-rs">Formulário e documentação</a> </p>   
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrU-Rt2Y9SIdRTZKfZabD25Vvd7zmwekrLMB6JFydsGpK4Yw/viewform?usp=sf_link">Formulário </a> </p>
+</div>
+        
+          <div class="topico" onclick="toggleConteudo('conteudo4')">CADASTRE-SE PARA COMPRAR OS PRODUTOS DE LOJAS CONVENIADAS Clique aqui</div>
+  <div id="conteudo4" class="conteudo">
+      <p><div class="form-group">
+        <label for="name">Nome completo</label>
+        <input type="text" id="name" placeholder="Digite seu nome completo">
+    </div>
+    <div class="form-group">
+        <label for="city">Cidade</label>
+        <input type="text" id="city" placeholder="Digite sua cidade">
+    </div>
+    <div class="form-group">
+        <label for="age">Endereço</label>
+        <input type="text" id="age" placeholder="Digite seu endereço">
+    </div>
+    <div class="form-group">
+      <label for="age">CPF ou RG</label>
+      <input type="number" id="contato" placeholder="Digite seu CNPJ">
+  </div>
+  
+    <a href="market.html">Faça upload do documento CCEPF (CERTIFICADO DE CRÉDITO PESSOA FISICA)</a>
+    <button type="submit" class="submit-btn">Enviar</button>
+</form>Preencha as informaçoes do formulario<br>
+Apresente os documentos necessários<br>
+Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abaixo: <br>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrU-Rt2Y9SIdRTZKfZabD25Vvd7zmwekrLMB6JFydsGpK4Yw/viewform?usp=sf_link">Formulário </a> </p>
+</div><br>
+           
   </div>   
 </div>
+
 <div>
-  <div class="topico" onclick="toggleConteudo('conteudo4')">Saiba se você é elegível ao crédito emergencial e tenha acesso aos produtos de Lojistas Conveniados</div>
-  <div id="conteudo4" class="conteudo">
-      <p>Preencha as informaçoes do formulario<br>
-        Apresente os documentos necessários<br>
-        Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abaixo: <br>
-          <a href="https://www.climatempo.com.br/previsao-do-tempo/15-dias/cidade/3155/montenegro-rs">Formulário e documentação</a> </p>   
+  <div class="topico" onclick="toggleConteudo('conteudo5')">CONHEÇA MAIS SOBRE O CRÉDITO EMERGENCIAL RECONSTRUÇÃO: COMO OBTER CADASTRO PARA LOJISTAS E PESSOAS AFETADAS PELAS ENCHENTES RECONSTRUIREM SEUS SONHOS!</div>
+  <div id="conteudo5" class="conteudo">
+    <h1>O que é Crédito Emergencial?</h1>
+    <p>
+        O crédito emergencial é uma iniciativa que auxilia a mitigação do impacto econômico gerado pelas enchentes em 2024 no Rio Grande do Sul,
+        em especial para pessoas em vulnerabilidade econômica, incluindo os comerciantes locais de cada cidade que possui convênio com o programa.
+        Dessa forma, o crédito emergencial visa à reconstrução dos sonhos das pessoas, suas casas e comércios.
+    </p>
+
+    <h2>Para quem serve o Crédito Emergencial?</h2>
+
+    <h3>Para empreendedores e empresas de médio e pequeno porte:</h3>
+    <p>O crédito emergencial atende a empreendedores e empresas que atuam no comércio de produtos essenciais para a reconstrução de casas, eletrodomésticos, e outros itens de necessidade básica.</p>
+    <h4>Benefícios:</h4>
+    <ul>
+        <li>Linha de crédito pré-autorizada para investimento</li>
+        <li>Isenção temporária de imposto municipal</li>
+        <li>Maior facilidade em aprovação de crédito para investimento comercial</li>
+        <li>Participação nos subsídios municipais e estaduais</li>
+        <li>Maior fluxo de caixa</li>
+    </ul>
+
+    <h3>Para pessoas físicas:</h3>
+    <p>As pessoas físicas que tiverem direito ao programa poderão comprar a preço reduzido de mercado, com parcelamento prolongado, mesmo estando com nome restrito no SPC e SERASA, auxiliando assim na reconstrução de suas vidas.</p>
+
+    <h3>Requisitos para pessoas físicas participarem:</h3>
+    <ul>
+        <li>Estar incluído na base de dados de vulneráveis pelas enchentes da sua cidade, através de uma apresentação da declaração de vulnerabilidade (pode ser obtido no CRAS da sua cidade).</li>
+        <li>Através da declaração de vulnerabilidade, é possível então, se for comprovado, solicitar na prefeitura da sua cidade o <strong>CCEPF - Certificado de Pessoa Física</strong>. Com isso em mãos, você terá direito a produtos com flexibilidade de preço e parcelamento de acordo com sua capacidade econômica, mesmo estando com restrição no SPC ou SERASA.</li>
+    </ul>
+
+    <h3>Requisitos para lojistas participarem:</h3>
+    <ul>
+        <li>Estar ciente do risco de inadimplência</li>
+        <li>Usar os benefícios dos lojistas com zelo</li>
+        <li>Apresentar o <strong>CCEL - Certificado de Crédito Emergencial Lojista</strong></li>
+    </ul>   
   </div>   
 </div>
 
@@ -129,7 +257,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2024 Protótipo de Marketplace - Desenvolvido para demonstração</p>
+    <p>Protótipo de Marketplace - Desenvolvido para demonstração</p>
   </footer>
 
   <!-- Script para exibir ou ocultar as seções -->
