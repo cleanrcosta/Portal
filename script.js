@@ -51,7 +51,7 @@ function initMap() {
         { name: "Montenegro", lat: -29.6886, lng: -51.4661, color: "yellow", risk: "Moderada a Alta Probabilidade" },
         { name: "Encantado", lat: -29.1569, lng: -51.9482, color: "orange", risk: "Alta Probabilidade" },
         { name: "Novo Hamburgo", lat: -29.6864, lng: -51.1103, color: "red", risk: "Muito Alta Probabilidade" },
-        { name: "Porto Alegre", lat: -30.0346, lng: -51.2177, color: "lightgreen", risk: "Baixa a Moderada Probabilidade" },
+        { name: "Porto Alegre", lat: -30.0346, lng: -51.2177, color: "red", risk: "Muito Alta Probabilidade" },
         { name: "Canoas", lat: -29.9994, lng: -51.1865, color: "lightgreen", risk: "Baixa a Moderada Probabilidade" },
         { name: "São Leopoldo", lat: -29.7684, lng: -51.2253, color: "yellow", risk: "Moderada Probabilidade" },
         { name: "Erechim", lat: -27.6346, lng: -52.2734, color: "lightgreen", risk: "Baixa a Moderada Probabilidade" },
@@ -111,4 +111,13 @@ function showVagas(city) {
 
     // Exibe a seção de vagas correspondente
     document.getElementById(city).classList.add('active');
+}
+// Função para mostrar ou ocultar o conteúdo
+function toggleConteudo(id) {
+    var conteudo = document.getElementById(id);
+    if (conteudo.style.display === "none") {
+        conteudo.style.display = "block";
+    } else {
+        conteudo.style.display = "none";
+    }
 }
