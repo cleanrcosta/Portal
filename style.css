@@ -487,3 +487,42 @@ h1 {
     color: #333;
 }
 
+.container {
+    text-align: center; /* Centraliza o texto */
+}
+
+.categoria-container {
+    margin-bottom: 20px; /* Espaço abaixo dos botões */
+}
+
+.btn-categoria {
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 15px 20px; /* Espaçamento interno do botão */
+    margin: 5px; /* Espaço entre os botões */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.btn-categoria:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+
+.produtos-container {
+    display: flex;
+    flex-direction: column; /* Alinha produtos verticalmente */
+    align-items: center; /* Centraliza os itens dentro do container */
+}
+
+.produto-item {
+    display: inline-block; /* Permite que os itens sejam exibidos lado a lado */
+    margin: 10px; /* Espaço entre os itens */
+    text-align: center; /* Centraliza o texto dos produtos */
+}
+
+.produto-item img {
+    width: 100px; /* Largura da imagem em miniatura */
+    height: auto; /* Mantém a proporção da imagem */
+}
