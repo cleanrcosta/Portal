@@ -190,23 +190,139 @@ Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abai
   </div>   
 </div>
 <br><br>
-<div class="topico" style="text-align: center; background-color: rgb(3, 87, 31);">HOPE MARKET</div>
-<div class="menu-vaga">
-  <button onclick="showVagas('porto-alegre')">Doaçõeses</button>
-  <button onclick="showVagas('santa-maria')">Produtos conveniados</button>
-  <button onclick="showVagas('passo-fundo')">MarketPlace Geral</button>
-  <button onclick="showVagas('lajeado')">Produtos essenciais</button>
-  
+<div class="container">
+  <div class="categoria-container" style="text-align: center;"> <!-- Centraliza o texto dentro da div -->
+    <button class="btn-categoria" onclick="showProdutos('eletronicos')">Doações</button>
+    <button class="btn-categoria" onclick="showProdutos('cosmeticos')">Produtos Essenciais</button>
+    <button class="btn-categoria" onclick="showProdutos('alimentos')">Convenio de lojista</button>
+    <button class="btn-categoria" onclick="showProdutos('outros')">HOPE Market Geral</button>
 </div>
-<div id="porto-alegre" class="vagas">
-  <div class="porto-alegre">
-      <img src="colchao.jpg" alt="Produto 1">
-      <h3>Colchão de casal</h3>
-      <p>Cidade: Porto Alegre <br>
-        Estado do produto: Usado<br>
-        Observação:Retirar no bairro Mirasol
-        Contato:(51)9999-9999</p>
-    </div>
+
+  <div class="produtos-container" id="produtos" style="text-align: center;">
+      <div class="produto" id="eletronicos" style="display: none;">
+          <h3>Produtos Eletrônicos</h3>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+      </div>
+
+      <div class="produto" id="cosmeticos" style="display: none;">
+          <h3>Produtos de Cosméticos</h3>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+      </div>
+
+      <div class="produto" id="alimentos" style="display: none;">
+          <h3>Produtos de Alimentos</h3>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+      </div>
+
+      <div class="produto" id="outros" style="display: none;">
+          <h3>Outros Produtos</h3>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+          <div class="produto-item">
+            <img src="colchao.jpg" alt="Produto 1">
+            <h3>Colchão de casal</h3>
+            <p>Cidade: Porto Alegre <br>
+              Estado do produto: Usado<br>
+              Observação:Retirar no bairro Mirasol<br>
+              Contato:(51)9999-9999</p>
+          </div>
+      </div>
+  </div>
+</div>
+
+<script>
+  function showProdutos(categoria) {
+      // Oculta todos os produtos
+      document.querySelectorAll('.produto').forEach(function(produto) {
+          produto.style.display = 'none';
+      });
+      // Mostra a categoria selecionada
+      document.getElementById(categoria).style.display = 'block';
+  }
+  </script>
 
   <footer>
     <p>&copy; 2024 Protótipo de Marketplace - Desenvolvido para demonstração</p>
