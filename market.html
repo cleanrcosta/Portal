@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<header>
+  <a href="index.html" class="home-button">Portal informativo SOS enchente - RS</a>
+  <header>
     <h1>HOPE MARKET</h1>
     <p>O Market Place da esperança que ajuda na reconstrução de sonhos e vidas.</p>
 
@@ -189,75 +189,27 @@ Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abai
     </ul>   
   </div>   
 </div>
-
-
-
-<main>
-    <!-- Seção de Doações -->
-    <section>
-      <h2 onclick="toggleCategory('doacoes')">Doações</h2>
-      <div id="doacoes" class="product-container">
-        <!-- Produtos 1 a 10 para Doações -->
-        <div class="product">
-          <img src="colchao.jpg" alt="Produto 1">
-          <h3>Colchão de casal</h3>
-          <p>Cidade: Porto Alegre <br>
-            Estado do produto: Usado<br>
-            Observação:Retirar no bairro Mirasol</p>
-        </div>
-        <div class="product">
-          <img src="colchao.jpg" alt="Produto 1">
-          <h3>Colchão de casal</h3>
-          <p>Cidade: Porto Alegre <br>
-            Estado do produto: Usado<br>
-            Observação:Retirar no bairro Mirasol</p>
-        </div>
-        <!-- Adicione os outros produtos com a mesma estrutura até o produto 10 -->
-      </div>
-    </section>
-
-    <!-- Seção de Produtos de Lojistas -->
-    <section>
-      <h2 onclick="toggleCategory('lojistas')">Produtos de Lojistas Conveniados</h2>
-      <div id="lojistas" class="product-container">
-        <!-- Produtos 1 a 10 para Lojistas Conveniados -->
-        <div class="product">
-          <img src="images/lojista1.jpg" alt="Produto 1">
-          <h3>Produto 1</h3>
-          <p>Descrição básica do Produto 1 - Lojista</p>
-        </div>
-        <!-- Adicione os outros produtos com a mesma estrutura até o produto 10 -->
-      </div>
-    </section>
-
-    <!-- Seção de Market Geral -->
-    <section>
-      <h2 onclick="toggleCategory('market')">Market Geral Aberto</h2>
-      <div id="market" class="product-container">
-        <!-- Produtos 1 a 10 para Market Geral -->
-        <div class="product">
-          <img src="images/market1.jpg" alt="Produto 1">
-          <h3>Produto 1</h3>
-          <p>Descrição básica do Produto 1 - Market</p>
-        <!-- Adicione os outros produtos com a mesma estrutura até o produto 10 -->
-      </div>
-      <div class="product">
-        <img src="images/market1.jpg" alt="Produto 1">
-        <h3>Produto 1</h3>
-        <p>Descrição básica do Produto 1 - Market</p>
-      <!-- Adicione os outros produtos com a mesma estrutura até o produto 10 -->
+<br><br>
+<div class="topico" style="text-align: center; background-color: rgb(3, 87, 31);">HOPE MARKET</div>
+<div class="menu-vaga">
+  <button onclick="showVagas('porto-alegre')">Doaçõeses</button>
+  <button onclick="showVagas('santa-maria')">Produtos conveniados</button>
+  <button onclick="showVagas('passo-fundo')">MarketPlace Geral</button>
+  <button onclick="showVagas('lajeado')">Produtos essenciais</button>
+  
+</div>
+<div id="porto-alegre" class="vagas">
+  <div class="porto-alegre">
+      <img src="colchao.jpg" alt="Produto 1">
+      <h3>Colchão de casal</h3>
+      <p>Cidade: Porto Alegre <br>
+        Estado do produto: Usado<br>
+        Observação:Retirar no bairro Mirasol
+        Contato:(51)9999-9999</p>
     </div>
-    <div class="product">
-      <img src="images/market1.jpg" alt="Produto 1">
-      <h3>Produto 1</h3>
-      <p>Descrição básica do Produto 1 - Market</p>
-    <!-- Adicione os outros produtos com a mesma estrutura até o produto 10 -->
-  </div>
-    </section>
-  </main>
 
   <footer>
-    <p>Protótipo de Marketplace - Desenvolvido para demonstração</p>
+    <p>&copy; 2024 Protótipo de Marketplace - Desenvolvido para demonstração</p>
   </footer>
 
   <!-- Script para exibir ou ocultar as seções -->

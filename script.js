@@ -121,3 +121,18 @@ function toggleConteudo(id) {
         conteudo.style.display = "none";
     }
 }
+
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+}
+
+// Fecha o menu ao clicar fora dele
+document.addEventListener("click", function(event) {
+    const menu = document.getElementById("menu");
+    const menuButton = document.querySelector(".menu-button");
+
+    if (!menu.contains(event.target) && event.target !== menuButton) {
+        menu.style.display = "none";
+    }
+});
