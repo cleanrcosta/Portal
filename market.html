@@ -9,47 +9,46 @@
 <body>
   <a href="index.html" class="home-button">Portal informativo SOS enchente - RS</a>
   <header>
-    <h1>HOPE MARKET</h1>
+    <h1>Hope Market</h1>
     <p>O Market Place da esperança que ajuda na reconstrução de sonhos e vidas.</p>
 
    <!-- Botão de Menu -->
    <button class="menu-button" onclick="toggleMenu()">☰ Menu</button>
    <div class="menu" id="menu">
        <a class="menu-link" href="index.html">Página Inicial</a>
-       <a class="menu-link" href="monitoramento.html">Sistema de monitoramento</a>
-       <a class="menu-link" href="preventiva.html">Prevenção e proteção</a>
+       <a class="menu-link" href="monitoramento.html">Sistema de Monitoramento</a>
+       <a class="menu-link" href="preventiva.html">Prevenção e Proteção</a>
        <a class="menu-link" href="infraestrutura.html">Sistema de Drenagem</a>
        <a class="menu-link" href="SistemadeAlarme.html">Sistema de Alarme</a>
-       <a class="menu-link" href="auxilio.html">Programas de auxílio</a>
+       <a class="menu-link" href="auxilio.html">Programas de Auxílio</a>
        <a class="menu-link" href="central.html">Central de Ajuda</a>
        <a class="menu-link" href="vagas.html">Banco de Vagas</a>
-       <a class="menu-link" href="market.html">HOPE MARKET</a>
+       <a class="menu-link" href="market.html">Hope Market</a>
     </div>
 </header>
 <div>
   <div class="topico" onclick="toggleConteudo('conteudo1')">Cadastre um produto para doação </div>
   <div id="conteudo1" class="conteudo">
-      <p><div class="form-container">
-        <h2>Formulário</h2>
-        <form>
-            <div class="form-group">
-                <label for="name">Produto</label>
-                <input type="text" id="name" placeholder="Digite nome do produto">
-            </div>
-            <div class="form-group">
-                <label for="city">Cidade</label>
-                <input type="text" id="city" placeholder="Digite sua cidade">
-            </div>
-            <div class="form-group">
-                <label for="age">Endereço</label>
-                <input type="text" id="age" placeholder="Digite seu endereço">
-            </div>
-            <div class="form-group">
-              <label for="age">Contato (telefone)</label>
-              <input type="number" id="contato" placeholder="Digite seu telefone com DDD">
-          </div>
+      <p><div class="container-x78y">
+        <form class="formulario-r92g">
+            <h2 class="titulo-a73q">Cadastro de nova doação</h2>
+            
+            <label for="nome" class="label-t45j">Produto</label>
+            <input type="text" id="nome" name="nome" class="input-d12p" required>
+            
+            <label for="cidade" class="label-t45j">Cidade</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+
+            <label for="bairro" class="label-t45j">Bairro</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+            
+            <label for="telefone" class="label-t45j">DDD + Telefone (celular)</label>
+            <input type="tel" id="telefone" name="telefone" class="input-d12p" required>
             <a href="market.html">Faça upload da foto</a>
-            <button type="submit" class="submit-btn">Enviar</button>
+            <button type="submit" class="botao-z91k">Enviar</button>
+        
+            
+            
         </form>
     </div><br>
           
@@ -60,31 +59,32 @@
 <div>
   <div class="topico" onclick="toggleConteudo('conteudo2')">Cadastre um produto para o Market Aberto</div>
   <div id="conteudo2" class="conteudo">
-    <p><div class="form-container">
-      <h2>Formulário</h2>
-      <form>
-          <div class="form-group">
-              <label for="name">Produto</label>
-              <input type="text" id="name" placeholder="Digite nome do produto">
-          </div>
-          <div class="form-group">
-              <label for="city">Cidade</label>
-              <input type="text" id="city" placeholder="Digite sua cidade">
-          </div>
-          <div class="form-group">
-              <label for="age">Endereço</label>
-              <input type="text" id="age" placeholder="Digite seu endereço">
-          </div>
-          <div class="form-group">
-            <label for="age">Contato (telefone)</label>
-            <input type="number" id="contato" placeholder="Digite seu telefone com DDD">
-        </div>
-        <div class="form-group">
-          <label for="city">Estado do item (novo/usado)</label>
-          <input type="text" id="city" placeholder="Digite Novo/usado">
-      </div>
+    <p><div class="container-x78y">
+      <form class="formulario-r92g">
+          <h2 class="titulo-a73q">Cadastro de novo produto</h2>
+          
+          <label for="nome" class="label-t45j">Produto</label>
+          <input type="text" id="nome" name="nome" class="input-d12p" required>
+          
+          <label for="cidade" class="label-t45j">Cidade</label>
+          <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+
+          <label for="bairro" class="label-t45j">Bairro</label>
+          <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+
+          <label for="bairro" class="label-t45j">Descrição (estado novo, usado, danificado...)</label>
+          <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+
+          <label for="bairro" class="label-t45j">Preço</label>
+          <input type="number" id="cidade" name="cidade" class="input-d12p" required>
+          
+          <label for="telefone" class="label-t45j">DDD + Telefone (celular)</label>
+          <input type="tel" id="telefone" name="telefone" class="input-d12p" required>
           <a href="market.html">Faça upload da foto</a>
-          <button type="submit" class="submit-btn">Enviar</button>
+          <button type="submit" class="botao-z91k">Enviar</button>
+      
+          
+          
       </form>
   </div><br>
       
@@ -95,57 +95,67 @@
 <div>
   <div class="topico" onclick="toggleConteudo('conteudo3')">Se torne um lojista conveniado! Clique aqui</div>
   <div id="conteudo3" class="conteudo">
-      <p><div class="form-group">
-        <label for="name">Nome da Empresa</label>
-        <input type="text" id="name" placeholder="Digite nome social da empresa">
-    </div>
-    <div class="form-group">
-        <label for="city">Cidade</label>
-        <input type="text" id="city" placeholder="Digite sua cidade">
-    </div>
-    <div class="form-group">
-        <label for="age">Endereço</label>
-        <input type="text" id="age" placeholder="Digite seu endereço">
-    </div>
-    <div class="form-group">
-      <label for="age">CNPJ</label>
-      <input type="number" id="contato" placeholder="Digite seu CNPJ">
-  </div>
+      <p><div class="container-x78y">
+        <form class="formulario-r92g">
+            <h2 class="titulo-a73q">Cadastro para novo lojista conveniado</h2>
+            
+            <label for="nome" class="label-t45j">Nome da Empresa</label>
+            <input type="text" id="nome" name="nome" class="input-d12p" required>
+            
+            <label for="cidade" class="label-t45j">Cidade</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
   
-    <a href="market.html">Faça upload do documento CCEL (CERTIFICADO DE CRÉDITO EMERGENCIAL LOJISTA)</a>
-    <button type="submit" class="submit-btn">Enviar</button>
-</form>
+            <label for="bairro" class="label-t45j">Endereço</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+  
+            <label for="bairro" class="label-t45j">CNPJ</label>
+            <input type="number" id="cidade" name="cidade" class="input-d12p" required>
+            
+            <label for="telefone" class="label-t45j">DDD + Telefone (celular)</label>
+            <input type="tel" id="telefone" name="telefone" class="input-d12p" required>
+            <a href="market.html">Faça upload da CCEL - CERTIFICADO DE CRÉDITO EMERGENCIAL LOJISTA</a>
+            <button type="submit" class="botao-z91k">Enviar</button>
+        
+            
+            
+        </form>
+    </div>
 Preencha as informaçoes do formulario<br>
         Apresente os documentos necessários<br>
-        Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abaixo: <br>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrU-Rt2Y9SIdRTZKfZabD25Vvd7zmwekrLMB6JFydsGpK4Yw/viewform?usp=sf_link">Formulário </a> </p>
+        Aguarde o nosso contato para confirmar sua inscrição! </p>
 </div>
         
           <div class="topico" onclick="toggleConteudo('conteudo4')">CADASTRE-SE PARA COMPRAR OS PRODUTOS DE LOJAS CONVENIADAS Clique aqui</div>
   <div id="conteudo4" class="conteudo">
-      <p><div class="form-group">
-        <label for="name">Nome completo</label>
-        <input type="text" id="name" placeholder="Digite seu nome completo">
-    </div>
-    <div class="form-group">
-        <label for="city">Cidade</label>
-        <input type="text" id="city" placeholder="Digite sua cidade">
-    </div>
-    <div class="form-group">
-        <label for="age">Endereço</label>
-        <input type="text" id="age" placeholder="Digite seu endereço">
-    </div>
-    <div class="form-group">
-      <label for="age">CPF ou RG</label>
-      <input type="number" id="contato" placeholder="Digite seu CNPJ">
-  </div>
+      <p><div class="container-x78y">
+        <form class="formulario-r92g">
+            <h2 class="titulo-a73q">Cadastro para comprar produtos de lojistas conveniados</h2>
+            
+            <label for="nome" class="label-t45j">Nome completo</label>
+            <input type="text" id="nome" name="nome" class="input-d12p" required>
+            
+            <label for="cidade" class="label-t45j">Cidade</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
   
-    <a href="market.html">Faça upload do documento CCEPF (CERTIFICADO DE CRÉDITO PESSOA FISICA)</a>
-    <button type="submit" class="submit-btn">Enviar</button>
-</form>Preencha as informaçoes do formulario<br>
+            <label for="bairro" class="label-t45j">Endereço</label>
+            <input type="text" id="cidade" name="cidade" class="input-d12p" required>
+  
+            <label for="bairro" class="label-t45j">CPF ou RG</label>
+            <input type="number" id="cidade" name="cidade" class="input-d12p" required>
+            
+            <label for="telefone" class="label-t45j">DDD + Telefone (celular)</label>
+            <input type="tel" id="telefone" name="telefone" class="input-d12p" required>
+            <a href="market.html">Faça upload da CCEPF - CERTIFICADO DE CRÉDITO EMERGENCIAL PESSOA FÍSICA</a>
+            <button type="submit" class="botao-z91k">Enviar</button>
+        
+            
+            
+        </form>
+    </div>
+  
+    <p>Preencha as informaçoes do formulario<br>
 Apresente os documentos necessários<br>
-Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abaixo: <br>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdrU-Rt2Y9SIdRTZKfZabD25Vvd7zmwekrLMB6JFydsGpK4Yw/viewform?usp=sf_link">Formulário </a> </p>
+Aguarde o nosso contato para confirmar sua inscrição!</p>
 </div><br>
            
   </div>   
@@ -202,7 +212,7 @@ Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abai
 
   <div class="produtos-container" id="produtos" style="text-align: center;">
       <div class="produto" id="eletronicos" style="display: none;">
-          <h3>Produtos Eletrônicos</h3>
+          <h3>Doaçoes mais próximas do seu local:</h3>
           <div class="produto-item">
             <img src="colchao.jpg" alt="Produto 1">
             <h3>Colchão de casal</h3>
@@ -230,63 +240,63 @@ Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abai
       </div>
 
       <div class="produto" id="cosmeticos" style="display: none;">
-          <h3>Produtos de Cosméticos</h3>
+          <h3>Produtos essenciais, fornecedores mais próximos do seu local:</h3>
           <div class="produto-item">
-            <img src="colchao.jpg" alt="Produto 1">
-            <h3>Colchão de casal</h3>
+            <img src="agua.jpg" alt="Produto 1">
+            <h3>Galão de agua 20litroas</h3>
             <p>Cidade: Porto Alegre <br>
-              Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$20,00
           </div>
           <div class="produto-item">
-            <img src="colchao.jpg" alt="Produto 1">
-            <h3>Colchão de casal</h3>
+            <img src="agua.jpg" alt="Produto 1">
+            <h3>Galão de agua 20litroas</h3>
             <p>Cidade: Porto Alegre <br>
-              Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$20,00
           </div>
           <div class="produto-item">
-            <img src="colchao.jpg" alt="Produto 1">
-            <h3>Colchão de casal</h3>
+            <img src="agua.jpg" alt="Produto 1">
+            <h3>Galão de agua 20litroas</h3>
             <p>Cidade: Porto Alegre <br>
-              Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$20,00
           </div>
       </div>
 
       <div class="produto" id="alimentos" style="display: none;">
-          <h3>Produtos de Alimentos</h3>
+          <h3>Produtos de lojistas conveniados da sua cidade:</h3>
           <div class="produto-item">
-            <img src="colchao.jpg" alt="Produto 1">
-            <h3>Colchão de casal</h3>
+            <img src="cimento.jpg" alt="Produto 1">
+            <h3>Cimento 50kg</h3>
             <p>Cidade: Porto Alegre <br>
-              Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$ 45,00 à vista <br>R$ 50,00 à prazo até 18x acima de 20 unidades
           </div>
           <div class="produto-item">
-            <img src="colchao.jpg" alt="Produto 1">
-            <h3>Colchão de casal</h3>
+            <img src="cimento.jpg" alt="Produto 1">
+            <h3>Cimento 50kg</h3>
             <p>Cidade: Porto Alegre <br>
-              Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$ 45,00 à vista <br>R$ 50,00 à prazo até 18x acima de 20 unidades
           </div>
           <div class="produto-item">
-            <img src="colchao.jpg" alt="Produto 1">
-            <h3>Colchão de casal</h3>
+            <img src="cimento.jpg" alt="Produto 1">
+            <h3>Cimento 50kg</h3>
             <p>Cidade: Porto Alegre <br>
-              Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$ 45,00 à vista <br>R$ 50,00 à prazo até 18x acima de 20 unidades
           </div>
       </div>
 
       <div class="produto" id="outros" style="display: none;">
-          <h3>Outros Produtos</h3>
+          <h3>Outros Produtos mais próximos de você:</h3>
           <div class="produto-item">
             <img src="colchao.jpg" alt="Produto 1">
             <h3>Colchão de casal</h3>
@@ -294,6 +304,7 @@ Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abai
               Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$ 200,00
           </div>
           <div class="produto-item">
             <img src="colchao.jpg" alt="Produto 1">
@@ -302,6 +313,7 @@ Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abai
               Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$ 200,00
           </div>
           <div class="produto-item">
             <img src="colchao.jpg" alt="Produto 1">
@@ -310,6 +322,7 @@ Aguarde o nosso contato para confirmar sua inscrição! Link do formulário abai
               Estado do produto: Usado<br>
               Observação:Retirar no bairro Mirasol<br>
               Contato:(51)9999-9999</p>
+              Preço: R$ 200,00
           </div>
       </div>
   </div>

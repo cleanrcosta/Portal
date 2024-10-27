@@ -526,3 +526,63 @@ h1 {
     width: 100px; /* Largura da imagem em miniatura */
     height: auto; /* Mantém a proporção da imagem */
 }
+/* Estilo para a área do formulário */
+.container-x78y {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do formulário */
+.formulario-r92g {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-a73q {
+    text-align: center;
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos */
+.label-t45j {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Estilo dos campos de entrada */
+.input-d12p {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border 0.3s;
+}
+
+.input-d12p:focus {
+    border-color: #3c91e6;
+    outline: none;
+}
+
+/* Estilo do botão */
+.botao-z91k {
+    padding: 10px;
+    background-color: #3c91e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botao-z91k:hover {
+    background-color: #357abd;
+}
